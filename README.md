@@ -1,6 +1,6 @@
 # Feature-Complete UART IP Core Specification
 ## 1. Project Overview
-This project implements a feature-complete, full-duplex UART IP core using Verilog HDL with independent TX and RX finite state machines. Upgrades include a parameterized baud rate generator, 16-deep synchronous FIFOs, hardware parity, and error detection.
+This project implements a feature-complete, full-duplex UART IP core using SystemVerilog with independent TX and RX finite state machines. Upgrades include a parameterized baud rate generator, 16-deep synchronous FIFOs, hardware parity, and error detection.
 ## 2. IP Core Specifications
 - **Architecture:** 3-Block FSM Datapath & Control
 - **Host Data Width:** 8 bits
