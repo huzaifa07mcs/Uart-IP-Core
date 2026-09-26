@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-This project implements a feature-complete, full-duplex Universal Asynchronous Receiver/Transmitter (UART) IP core using Verilog HDL. The core is built around independent Transmit (TX) and Receive (RX) finite state machines to enable simultaneous bidirectional communication.
+This project implements a feature-complete, full-duplex Universal Asynchronous Receiver/Transmitter (UART) IP core using SystemVerilog. The core is built around independent Transmit (TX) and Receive (RX) finite state machines to enable simultaneous bidirectional communication.
 
 The project will be developed incrementally. A functionally correct baseline single-byte TX/RX processor will be verified first. After successful verification, the design will be upgraded to a robust communication peripheral by adding a parameterized baud rate generator, 16-deep synchronous FIFOs, hardware parity generation and checking, and comprehensive error detection.
 
@@ -14,7 +14,7 @@ The objective of this project is to gain practical experience in RTL design, FSM
 
 The main goals of this project are:
 
-- Design and implement an 8-bit full-duplex UART IP core in Verilog HDL.
+- Design and implement an 8-bit full-duplex UART IP core in SystemVerilog.
 - Develop and verify a baseline unbuffered TX and RX datapath.
 - Convert the baseline design into a buffered system using 16-deep synchronous FIFOs.
 - Implement parameterized baud rate generation for dynamic clock scaling.
@@ -64,7 +64,7 @@ The UART implements standard asynchronous serial communication.
 | System Clock | Single Clock Domain |
 | Reset | Synchronous Active-High |
 | Verification Environment | AMD Vivado XSIM |
-| Implementation Language | Verilog HDL (RTL), SystemVerilog (TB) |
+| Implementation Language | SystemVerilog (RTL & TB) |
 
 ---
 
