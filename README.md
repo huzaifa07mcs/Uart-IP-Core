@@ -214,11 +214,11 @@ This follows a normal hardware development flow rather than writing everything f
 
 | Module | Spec | RTL | Testbench | Simulation | Status |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **sync_fifo** | ✅ | ✅ | Integration TB | ✅ | Complete |
-| **uart_tx** | ✅ | ✅ | Integration TB | ✅ | Complete |
-| **uart_rx** | ✅ | ✅ | Integration TB | ✅ | Complete |
-| **uart_top** | ✅ | ✅ | Integration TB | ✅ | Complete |
-| **Testbench environment** | ✅ | n/a | ✅ | ✅ | Complete for loopback and parity scope |
+| **sync_fifo** | ✅ | ✅ | ✅ | ✅ | Complete |
+| **uart_tx** | ✅ | ✅ | ✅ | ✅ | Complete |
+| **uart_rx** | ✅ | ✅ | ✅ | ✅ | Complete |
+| **uart_top** | ✅ | ✅ | ✅ | ✅ | Complete |
+| **Testbench environment** | ✅ | ✅ | ✅ | ✅ | Complete for loopback and parity scope |
 
 Not started:
 
