@@ -4,7 +4,7 @@ A UART transceiver written in SystemVerilog, with a 16-entry TX FIFO, a 16-entry
 
 The project follows a specification, implementation, testbench, simulation, fix flow. The testbench found a real RTL bug in the TX control logic during bring-up, and its scoreboard was checked with a mutation test to show that it can actually fail.
 
-Author: Huzaifa, Electrical Engineering, NUST (MCS)
+Author: Huzaifa, Electrical Engineering, NUST 
 
 ---
 
