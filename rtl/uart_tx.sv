@@ -72,7 +72,7 @@ typedef enum logic [2:0] {
                     txbusy <= 1'b0;
                    
                     if (txstart) begin
-                        tx_data <= datain; // Data Stor as latch
+                        tx_data <= datain; // Data Stored as latch
                         txbusy  <= 1'b1;   // Status busy
                         state   <= START_BIT;
                     end
